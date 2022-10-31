@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sample_3"
+        android:label="烘焙小能手"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoActionBar">
+        <activity
+            android:name=".BreadStep1_11"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_10"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_9"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_8"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_7"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_6"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep1_5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BreadStep2_5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity_ZZero"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity7_2"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep3_4"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep3_3"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep3_2"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep3_1"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep3_0"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep2_4"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep2_3"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep2_2"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep2_1"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep2_0"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep1_4"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep1_3"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep1_2"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep1_1"
+            android:exported="false" />
+        <activity
+            android:name=".BreadStep1_0"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep3_4"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep3_3"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep3_2"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep3_1"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep3_0"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep2_4"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep2_3"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep2_2"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep2_1"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep2_0"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep1_4"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep1_3"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep1_2"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep1_1"
+            android:exported="false" />
+        <activity
+            android:name=".CookieStep1_0"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10step"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo42"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo41"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo33"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo31"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10_1step"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9Video"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10_1step"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8Video"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo32"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityVideo4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
